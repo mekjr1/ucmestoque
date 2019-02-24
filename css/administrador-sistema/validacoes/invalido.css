@@ -1,0 +1,21 @@
+.form-invalido{
+    border: 1px solid #dc3545 !important;
+}
+.form-invalido:focus{
+    box-shadow:0 0 0 .2rem rgba(220,53,69,.25) !important;
+    
+}
+
+.form-valido{
+    border: 1px solid #28a745 !important;
+}
+.form-valido:focus{
+    box-shadow:0 0 0 0.2rem rgba(40,167,69,.25) !important;
+    
+}
+
+.invisivel{
+    color: #dc3545 !important;
+        visibility: hidden !important;
+            
+}

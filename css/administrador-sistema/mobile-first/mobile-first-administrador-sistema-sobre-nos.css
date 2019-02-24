@@ -1,0 +1,70 @@
+/* sidebar */
+
+@media (max-width:767px) {
+    nav.sidebar{
+        padding-top: 0;
+        padding-top: 165px;
+        height:auto;
+    }
+    #siderbar-nav{
+        height: 0;
+    }
+    .sidebar-sticky{
+        height: auto !important;
+        background-color: #f8f9fa;
+    } 
+    #foto-usuario{
+        display: none !important;
+    }
+    main section{
+        max-width: 100% !important;
+        padding-top: 0px !important ;
+    }
+    .display-4{
+        font-size: 2em !important;
+        margin-top: 30px;
+    }
+    .lead{
+        font-size: 1.3em !important;
+    }
+    div.row{
+        margin: 0 !important;
+    }
+    .col-md-8{
+        padding: 0 !important;
+    }
+    section{
+        margin: 0 !important;
+        padding-bottom: 100px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .sidebar{
+        width: 8.33%;
+        margin-top: 14px;
+
+    }
+    .sidebar-sticky{
+        padding-top: 10px !important;
+    }
+    .nav-item .nav-link span{
+        display: none;
+    }
+    .nav-link{
+        padding-left: 60px !important;
+        font-size: 1.6em;
+    }
+    main section{
+        margin-top: 12px;
+    }
+    #foto-usuario{
+        margin-top: 20px !important;
+        
+    }
+    #foto-usuario a.nav-link{
+        padding-left: 0px !important;
+    }
+    #perfil{
+        padding-left: 8px !important;
+    }
+}

@@ -1,0 +1,65 @@
+/* reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* background */
+body{
+  background-image: url("../../img/login/background-login.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0 0;
+  font-size: .875rem;
+}
+/*
+ * Navbar
+ */
+ #logo{
+   width: 50px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+ }
+.navbar{
+   background-image: linear-gradient(#007bff, #1461b5 80%, #1d61ab);
+   padding-top: 0;
+   padding-bottom: 0;
+ }
+
+ nav .navbar-collapse .navbar-nav li a{
+   padding-top: 19px;
+   padding-bottom: 19px;
+ }
+
+#sobre:hover{
+    padding-bottom: 17px;
+    padding-top: 17px;
+    border-bottom: solid 2px #ffa366;
+    border-top:solid 2px #ffa366;
+}
+
+/* container */
+.container-fluid{
+  margin-top: 60px;
+}
+
+#jumbotron-login{
+    margin: 90px auto auto auto;
+    max-width: 800px;
+}
+#jumbotron-login h1{
+    font-size: 2.5em;
+}
+.modal-dialog{
+    margin-top: 150px;
+}
+.modal-content{
+    height: 358px;
+}
+#modal-logo{
+    width: 125px;
+    margin: -70px auto auto auto;
+}

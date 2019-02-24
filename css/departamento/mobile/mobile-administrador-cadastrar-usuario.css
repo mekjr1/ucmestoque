@@ -1,0 +1,30 @@
+/* sidebar */
+
+@media (max-width:767px) {
+    nav.sidebar{
+        padding-top: 0;
+        padding-top: 165px;  
+        main section{
+            padding-top: 0px !important ;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        .sidebar{
+            width: 8.33%;
+            margin-top: 14px;
+
+        }
+        .sidebar-sticky{
+            padding-top: 10px !important;
+        }
+        .nav-item .nav-link span{
+            display: none;
+        }
+        .nav-link{
+            padding-left: 60px !important;
+            font-size: 1.6em;
+        }
+        main section{
+            margin-top: 12px;
+        }
+    }
